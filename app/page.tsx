@@ -76,7 +76,7 @@ function WaitlistForm() {
       </div>
 
       <form
-        action="https://formspree.io/f/xeevkned"
+        action="https://formspree.io/f/xvznppen"
         method="POST"
         className="space-y-5"
       >
@@ -115,6 +115,25 @@ function WaitlistForm() {
             <option>Buying</option>
             <option>Selling</option>
             <option>Both</option>
+          </select>
+        </div>
+
+        {/* Referral */}
+        <div>
+          <label className="mb-2 block text-sm font-medium">
+            Referred by <span className="text-[#c99a31]">*</span>
+          </label>
+          <select
+            name="Referred by"
+            required
+            className="w-full rounded-2xl border border-[#d6d6d1] bg-[#fafaf8] px-4 py-3 text-sm"
+            defaultValue=""
+          >
+            <option value="" disabled>Select one</option>
+            <option>Timi</option>
+            <option>Rach</option>
+            <option>Fav</option>
+            <option>None</option>
           </select>
         </div>
 
