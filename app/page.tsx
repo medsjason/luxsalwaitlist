@@ -133,6 +133,7 @@ function WaitlistForm() {
             <option>Timi</option>
             <option>Rach</option>
             <option>Fav</option>
+            <option>Berry</option>
             <option>None</option>
           </select>
         </div>
